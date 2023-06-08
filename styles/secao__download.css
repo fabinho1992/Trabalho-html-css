@@ -1,0 +1,123 @@
+.secao__download{
+    text-align: center;
+    margin: 0 auto 3rem;
+    padding: 0 1rem 2rem;
+}
+
+.secao__download h2{
+    color: var(--cinza);
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.secao__download p{
+    color: var(--cinza-claro);
+    font-size: 16px;
+    padding-bottom: 3rem;
+    opacity: 0.8;
+    line-height: 1.3rem;
+}
+
+.secao__download-botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.secao__download .secao__download-botao:hover{
+    cursor: pointer;
+}
+
+.secao__download-botao button{
+    border: 1px solid var(--azul-claro);
+    padding: 0.8rem;
+    width: 90%;
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    border-radius: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.secao__download-botao button:nth-child(1){
+    background-color: var(--verde);
+    border: 1px solid var(--verde);
+}
+
+.secao__download .secao__download-titulo{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.secao02{
+    margin-bottom: 1rem;
+}
+
+.container__img{
+    width: 100%;
+}
+
+.container__img img{
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
+.texto{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.svg-texto{
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+
+@media screen and (min-width:1400px){
+    .secao__download h2{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }   
+    .secao__download p{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .secao__download-botao{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .secao__computer{
+        display: flex;
+        gap: 4rem;
+        padding: 0 3rem;
+
+        
+
+    }
+    .container__img{
+        width: 50%;
+        margin: 0 auto;
+
+    }
+    .container__img img{
+        max-width:100%;
+    }
+    .secao__computer-flex{
+        display: flex;
+        flex-direction: column;
+        gap: -1rem;
+        text-align: start;
+    }
+    .secao__computer-flex p{
+        text-align: start;
+        margin:  0 1.5rem;
+    }
+}
